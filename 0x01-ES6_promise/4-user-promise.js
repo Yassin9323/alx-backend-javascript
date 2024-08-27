@@ -1,12 +1,11 @@
 #!/usr/bin/node
 
-export default function uploadPhoto(filename) {
+export default function signUpUser(firstName, lastName) {
   return new Promise((resolve, reject) => {
-    const value = false;
-    if (value) {
-      resolve(filename);
-    } else {
-      reject(Error(`${filename} cannot be processed`));
-    }
+    resolve({
+      firstName,
+      lastName,
+    });
+    reject(Error);
   });
 }
