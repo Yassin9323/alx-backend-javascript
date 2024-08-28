@@ -11,7 +11,7 @@ export default function initializeRooms() {
   arr.push(x, y, z);
 
   return arr;
-  
+
 //   another solution
 //   return [19, 20, 34].map((size) => new ClassRoom(size));
 }
